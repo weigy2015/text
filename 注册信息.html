@@ -1,0 +1,26 @@
+﻿<html>
+<head>
+<title>作业二：注册信息填写</title>
+</head>
+<body>
+<h2>注册信息填写</h2>
+<form action=“processing.asp” method=“post” >
+<p>昵称：<input type="text" name="username" id="username"/>
+</p>
+<p>性别：
+<input type="radio" name="gender" id="male" value="male"/><img src="male.jpg " width="50" height="50"/>
+<input type="radio" name="gender" id="female" value="female"/><img src="female.jpg " width="50" height="50"/>
+</p>
+<p>密码：<input type="text" name="password" id="password"/><br/>
+确认密码：<input type="text" name="password" id="password2"/>
+</p>
+<p>爱好：<input type="checkbox" name="movie" id="movie" value="movie"/>电影
+<input type="checkbox" name="music" id="music" value="movie"/>音乐
+<input type="checkbox" name="book" id="book" value="book"/>读书
+</p>
+<p>
+<input type="submit" id="submit" value="注册"/>
+<input type="reset" id="reset" value="重新填写"/>
+</p>
+</body>
+</html>
